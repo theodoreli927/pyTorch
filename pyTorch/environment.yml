@@ -1,0 +1,21 @@
+name: py-project
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - black=22.*
+  - torchinfo
+  - gdal
+  - ipykernel=6.15.1
+  - numpy
+  - pip=22.2.2
+  - pytest=7.1.2
+  - pytest-cov=3.0.0
+  - python=3.8
+  - pytorch
+  - ruff
+  - torchgeo
+  - tqdm=4.64.*
+  - pip:
+    - -r requirements.txt
