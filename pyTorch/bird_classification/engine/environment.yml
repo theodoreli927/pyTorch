@@ -1,0 +1,26 @@
+name: py-project
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - black=22.*
+  - cuda
+  - torchinfo
+  - gdal
+  - ipykernel=6.15.1
+  - numpy
+  - pip=22.2.2
+  - pytest=7.1.2
+  - pytest-cov=3.0.0
+  - python=3.8
+  - pytorch
+  - pytorch-cuda=12.1
+  - ruff
+  - torchgeo
+  - tqdm=4.64.*
+  - kaggle=1.5.12
+  - setuptools=70.0.0
+  - pip:
+    - -r requirements.txt
